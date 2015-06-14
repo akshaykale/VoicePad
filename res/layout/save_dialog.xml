@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="58dp"
+        android:background="#F7941C"
+        android:src="@drawable/save_" />
+
+    <Button
+        android:id="@+id/bt_dialog_save_cancle"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_dialog_save_save"
+        android:layout_alignBottom="@+id/bt_dialog_save_save"
+        android:layout_alignParentRight="true"
+        android:background="#F7941C"
+        android:minWidth="158dp"
+        android:text="Close" />
+
+    <EditText
+        android:id="@+id/et_dialog_save_filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:textColor="#F7941C"
+        android:ems="10" >
+        
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bt_dialog_save_save"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="17dp"
+        android:background="#F7941C"
+        android:minWidth="158dp"
+        android:text="Save" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/et_dialog_save_filename"
+        android:layout_alignTop="@+id/imageView1"
+        android:src="@drawable/ic_draw_open" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:textColor="#F7941C"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/file_types"
+        android:layout_above="@+id/bt_dialog_save_save"
+        android:layout_alignLeft="@+id/et_dialog_save_filename"
+        android:layout_toLeftOf="@+id/imageButton1" />
+
+</RelativeLayout>

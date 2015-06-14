@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Find:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#F7941C" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#F7941C"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <EditText
+            android:id="@+id/et_dialog_search_find_kw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="find __keyword" >
+			
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/ib_dialog_search_mic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_action_mic_d" />
+
+    </LinearLayout>
+
+        <TextView
+        android:id="@+id/TextView001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Replace:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#F7941C" />
+
+    <TextView
+        android:id="@+id/TextView002"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#F7941C"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <EditText
+        android:id="@+id/et_dialog_search_replace_kw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:hint="replace __keyword"/>
+
+    <Button
+        android:id="@+id/bt_dialog_search"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#F7941C"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/bt_dialog_replace"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#F7941C"
+        android:text="Replace" />
+
+</LinearLayout>

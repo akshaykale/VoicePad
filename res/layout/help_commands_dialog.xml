@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/help_cmd_list"
+        android:layout_width="match_parent"
+        android:layout_height="324dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/help_cmd_diad_close"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F7941C"
+        android:text="Close"
+        android:minHeight="40dp"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

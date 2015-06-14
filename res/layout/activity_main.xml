@@ -1,0 +1,67 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="1">
+       
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+     >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/et_dialog_save_filename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="79dp"
+                android:minHeight="300dp"
+                android:ems="10"
+                android:inputType="textMultiLine" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/bt_dialog_save_cancle"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/et_dialog_save_filename"
+                android:text="Speek" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+    
+    <!-- The navigation drawer -->
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/background_dark"
+        android:dividerHeight="1dp"
+		android:background="@drawable/h_i"
+		android:cacheColorHint="#00000000"
+        android:alpha="7"/>
+    
+        <ListView android:id="@+id/right_drawer"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/background_dark"
+        android:dividerHeight="1dp"
+        android:background="#00000000" 
+		android:cacheColorHint="#00000000"/>
+</android.support.v4.widget.DrawerLayout>

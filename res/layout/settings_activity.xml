@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/set_TextView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Demo"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F7941C" />
+
+        <TextView
+            android:id="@+id/set_TextView14"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:background="#F7941C"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp" >
+
+            <Switch
+                android:id="@+id/set_switch_demo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Show Demo at Startup"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/set_TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Voice Text Formating"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F7941C" />
+
+        <TextView
+            android:id="@+id/set_TextView02"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:background="#F7941C"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp" >
+
+            <Switch
+                android:id="@+id/set_switch_voice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="ON/OFF Voice Text Formating"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/set_TextView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Full Screen"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F7941C" />
+
+        <TextView
+            android:id="@+id/set_TextView12"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:background="#F7941C"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" >
+
+            <Switch
+                android:id="@+id/set_switch_fullscreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="ON/OFF FullScreen Mode"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/set_TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Theams"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F7941C" />
+
+        <TextView
+            android:id="@+id/set_TextView04"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:background="#F7941C"
+            android:text="Theams"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/set_theam_OW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:text="Orange-White"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/set_theam_BW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Blue-White"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/set_TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Orientation"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F7941C" />
+
+        <TextView
+            android:id="@+id/set_TextView06"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:background="#F7941C"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/set_ori_land"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Landscape"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/set_ori_port"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Portrait"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/set_ori_auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Auto Rotate"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/set_TextView09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Text Size"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F7941C" />
+
+        <TextView
+            android:id="@+id/set_TextView10"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:background="#F7941C"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <SeekBar
+                android:id="@+id/seekBar1"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.62" />
+
+            <TextView
+                android:id="@+id/tv_seekbar"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/set_TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Text Font"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F7941C" />
+
+        <TextView
+            android:id="@+id/set_TextView08"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:background="#F7941C"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/set_font_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Normal"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/set_font_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Centabel"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/set_font_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HaloHandLetter"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/set_font_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monospace Typewriter"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/set_font_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neuton Regular"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/set_TextView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Text Alignment"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F7941C" />
+
+        <TextView
+            android:id="@+id/set_TextView16"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:background="#F7941C"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/set_align_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Align Left"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/set_align_centre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Align Centre"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/set_align_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Align Right"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VoicePad</string>
+    <string name="action_speek_command">Commands</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="speech_prompt">Say something&#8230;</string>
+	<string name="drawer_open">Open Nevigation Drawer</string>
+	<string name="drawer_close">Close Nevigation Drawer</string>
+	
+    <string-array name="file_menu">
+        <item >New Document</item>
+        <item >Open</item>
+        <item >Save</item>
+        <item >Settings</item>
+        <item >Help</item>
+        <item >Share</item>
+        <item >Exit</item>
+    </string-array>
+
+    <string-array name="edit_menu">
+        <item >Mic</item>
+        <item >Cut</item>
+        <item >Copy</item>
+        <item >Paste</item>
+        <item >SelectAll</item>
+        <item >Delete</item>
+        <item >Search</item>
+        <item >Font</item>
+        <item >Size</item>
+        <item >Bold</item>
+        <item >Italics</item>
+        <item >Underline</item>
+        
+    </string-array>
+    
+    <string-array name="file_types">
+        <item >.txt</item>
+        <item >.java</item>
+        <item >.cpp</item>
+        <item >.py</item>
+        <item >.pdf</item>
+       
+    </string-array>
+
+	<string-array name="help_mainTitle">
+	    <item >Demo</item>
+	    <item >Voice Commands</item>
+		<item >Feedback</item>
+		<item >Rate This App</item>
+<!-- 		<item >Developer Reference</item> -->
+	</string-array>
+
+	<string-array name="help_disL">
+	    <item >Show the Demo of App</item>
+	    <item >Recognizable Commands</item>
+		<item >Email me your Feedback</item>
+		<item >Rate Upto 5 stars</item>
+<!-- 		<item >Complete Source Code</item> -->
+	</string-array>
+	
+	<string-array name="help_disS">
+	    <item >An Intro Video Clip of VoicePad on Youtube </item>
+	    <item >click to see all Commands</item>
+		<item ></item>
+		<item ></item>
+<!-- 		<item >blog link</item> -->
+	</string-array>
+
+	<string-array name="cmds_title">
+	    <item >New Document/ New File</item>
+		<item >Open</item>
+		<item >Save</item>
+		<item >Print</item>
+		<item >Settings</item>
+		<item >Help</item>
+		<item >Exit</item>
+		<item >Voice Commands</item>
+		<item >Feedback</item>
+		<item >Rate</item>
+		<item >Developer Reference</item>
+		<item >Spread the Word</item>
+		<item >Exit</item>
+		<item >Cut</item>
+		<item >Copy</item>
+		<item >Paste</item>
+		<item >Font</item>
+		<item >Size</item>
+		<item >Bold</item>
+		<item >Italic</item>
+		<item >Underline</item>
+		<item >Demo</item>		
+	</string-array>	
+	<string-array name="cmds_dis">
+	    <item >Create New Docemunt/File</item>
+		<item >Open a File</item>
+		<item >Save Your File</item>
+		<item >Print the File</item>
+		<item >Change Settings</item>
+		<item >Show Help Options</item>
+		<item >Exit Notepad3+</item>
+		<item >Show This Dialog</item>
+		<item >Email me your Feedback</item>
+		<item >Rate this App</item>
+		<item >Full Source Code and description</item>
+		<item >Share this App</item>
+		<item >Exit</item>
+		<item >Cut selected</item>
+		<item >Copy selected</item>
+		<item >Paste selected</item>
+		<item >Change Font </item>
+		<item >Change Size</item>
+		<item >Make Bold</item>
+		<item >Make Italic</item>
+		<item >Make Underline</item>
+		<item >Introduction to App</item>
+	</string-array>	
+</resources>

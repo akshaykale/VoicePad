@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/startup_lin_lay"
+    android:orientation="vertical"
+    
+    android:background="@drawable/cll" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_weight="1"
+        android:textColor="@color/White"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="35sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home screen"
+        android:layout_weight="1"
+        android:textColor="@color/White"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        android:maxHeight="140dp"
+        android:background="#7664574F"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:maxHeight="140dp"
+            android:minHeight="80dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom"
+                android:src="@drawable/open_512" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight=".8"
+                android:background="@drawable/custom"
+                android:src="@drawable/new_512" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom"
+                android:src="@drawable/help_512" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Open File"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/White" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Create New"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/White" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Help"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <TextView
+        android:id="@+id/textView001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/White"
+        
+        android:gravity="center_horizontal|center_vertical"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#7664574F" >
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Designed And Coded by :\n Akshay Kale"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/White"
+             />
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:autoLink="email"
+            android:layout_weight="1"
+            android:text="theark1204@gmail.com"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColorLink="@color/Blue"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</LinearLayout>
